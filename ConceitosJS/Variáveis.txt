@@ -1,0 +1,52 @@
+VARIÁVEIS
+
+IDENTIFICADORES (NOME DAS VARIÁVEIS)
+
+    Podem começar com letras, $ ou _
+
+    Não podem começar com números
+
+    É possível usar letras e números
+
+    É possível usar acentos e símbolos
+
+    Não podem conter espaços
+
+    Não podem ser palavras reservadas
+
+    Dicas
+
+        Maiúsculas e minúsculas fazem diferença
+
+        Escolher nomes coerentes
+
+TIPOS PRIMITIVOS
+
+    number - Se enquadram os números em geral, sejam eles inteiros ou reais.
+
+        Infinity
+
+        NaN (Not a Number)
+
+    string - Este pertencem as cadeias de caracteres, que também podem ser números, estão contidos todos os tipos de caracteres.
+
+    boolean - Podem ser true ou false
+
+    null -
+
+    undefined -
+
+    object
+
+        Array
+
+    function -
+
+= é o simbolo de recebe, onde uma variável declarada recebe um valor, ocorrendo a Atribuição
+
+    Ex: var n1 = 5 
+        var é o comando de variável, pode ser usado var ou let, com a diferença de que var é para escopo globar e let para escopo local, n1 é o identificador, seguido do símbolo de atribuiçao e o valor.
+
+Para verificar o tipo de um valor basta digitar
+
+    typeof valor
