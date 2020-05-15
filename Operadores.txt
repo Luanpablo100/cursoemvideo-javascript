@@ -28,14 +28,65 @@ Aritméticos
         \/    
         ============>    
 
-    Atribuição => n = 5 + 4
-    Auto-Atribuição => n = n + 4
-    Simplificação => n += 4
-    Incremento => n + n + 1     é igual a       n++
 Atribuição
+
+    Atribuição => n = 5 + 4
+
+    Auto-Atribuição => n = n + 4
+
+    Simplificação => n += 4
+
+    Incremento => n + n + 1     é igual a       n++
 
 Relacionais
 
+    > - Maior que
+
+    < - Menor que
+
+    >= - Maior ou igual
+
+    <= - Menor ou igual
+
+    == - Igual a 
+
+    != - Não igual ou diferente
+
+    IDENTIDADE
+
+        No JavaScript a expressão 5 == 5 é verdadeira, assim como a expressão 5 == '5' apesar dos seus tipos serem diferentes, agora para testar a igualdade restrita, verificando se possui o mesmo valor e tipo faz-se a seguinte expressão: 5 === '5', que retornará false pois uma é number e a outra string.
+
+    ORDEM DE PRECEDÊNCIA
+        Não possuem, portanto será da esquerda para a direita.
+
 Lógicos
 
+    ! - Negação ou não...
+
+    && - Conjunção, o 'e' da programação
+
+    || - Disjunção, o 'ou' da programação
+
+    ORDEM DE PRECEDÊNCIA
+
+        Primeiro não(!) depois e(&&) e por fim o ou(||)
+
 Ternário
+
+    ?
+
+    :
+
+    Sintaxe:    teste  ?   true    :   false        /- teste = expressão lógica   /   true - O que acontece caso a expressão seja verdadeira    /   false - O que acontece caso a expressão seja falsa
+    Exempo: media >= 7.0 ? "Aprovado" : "Reprovado
+ORDEM DE PRECEDÊNCIA
+
+    ||
+    ||  Aritméticos
+    ||
+    ||  Relacionais 
+    ||
+    ||  Lógicos
+    ||
+    ||
+    \/
