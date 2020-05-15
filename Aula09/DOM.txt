@@ -1,0 +1,20 @@
+DOM - Document Object Model
+
+É um conjunto de objetos dentro do navegador que acesso a componentes do site.
+
+ARVORE DOM
+Representado na foto dentro da pasta.
+
+Método de acesso
+
+por marca
+    getElementsByTagName()
+por ID
+    getElementById()
+por nome
+    getElementsByName()
+por classe
+    getElementsByClassName()
+por seletor
+    querySelector()
+    querySelectorAll()
