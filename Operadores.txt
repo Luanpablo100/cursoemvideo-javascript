@@ -1,0 +1,41 @@
+OPERADORES
+
+No JavaScript exitem os seguintes operadores:
+
+Aritméticos
+
+    + - Soma
+
+    - - Subtração
+
+    * - Multiplicação
+
+    / - Divisão Real
+
+    % - Divisão Inteira (Resto da Divisão)
+
+    ** - Potenciação
+
+    ORDEM DE PRECEDÊNCIA - Segue a ordem matemática
+
+        ||  ()
+        ||  
+        ||  **
+        ||
+        ||  *  /  %
+        ||
+        ||  +  -
+        \/    
+        ============>    
+
+    Atribuição => n = 5 + 4
+    Auto-Atribuição => n = n + 4
+    Simplificação => n += 4
+    Incremento => n + n + 1     é igual a       n++
+Atribuição
+
+Relacionais
+
+Lógicos
+
+Ternário
