@@ -1,0 +1,19 @@
+CONDICIONAIS
+
+O estudo das condicionais se é igual ao de lógica:
+
+Executa-se uma linha de comandos, onde estra a condicional, e casa seja verdadeira executa um bloco, e caso não executa outro.
+
+Existem os tipos de condicionais, que são as simples, onde não possui "se não" ou else e as compostas, que possuem.
+
+Simples:
+    if (condição) {
+        bloco
+    }
+
+Composta:
+    if (condição) {
+        bloco1
+    } else {
+        bloco2
+    }
