@@ -17,3 +17,29 @@ Composta:
     } else {
         bloco2
     }
+
+Aninhada:
+    if (condição) {
+        bloco1
+    } else if (condição) {
+        bloco2
+    } else {
+        bloco3
+    }
+
+CONDICIONAL MÚLTIPLA - O escolha da lógica de progração.
+
+switch (expressão) {
+    case valor 1:
+        bloco1
+        break
+    case valor 2:
+        bloco2
+        break
+    case valor 3:
+        bloco3
+        break
+    default:
+        bloco4
+        break
+}
