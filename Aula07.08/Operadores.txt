@@ -79,6 +79,7 @@ Ternário
 
     Sintaxe:    teste  ?   true    :   false        /- teste = expressão lógica   /   true - O que acontece caso a expressão seja verdadeira    /   false - O que acontece caso a expressão seja falsa
     Exempo: media >= 7.0 ? "Aprovado" : "Reprovado
+    
 ORDEM DE PRECEDÊNCIA
 
     ||
